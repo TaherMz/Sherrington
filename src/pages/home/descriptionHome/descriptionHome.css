@@ -1,0 +1,85 @@
+.container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.text-home{
+
+    color: white;
+    padding-left: 4vh;
+    padding-top: 40vh;
+    display: flex;
+    justify-content: center;
+    font-family: Catamaran;
+    font-size:2.3vh;
+    text-align: justify;
+
+
+}
+
+.image-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: auto;
+    padding-left: 20vh;
+
+   
+    
+}
+
+.image-home2{
+    padding-top: 0;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.text-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: auto;
+    padding-top: 20vh;
+    
+}
+.collec{   border-bottom: .2vh solid black;
+}
+
+
+@media (max-width:500px){
+    .container-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .text-home{
+
+        color: white;
+        padding: 10vh;
+        padding-top: 45vh;
+        display: flex;
+        justify-content: center;
+        font-family: Yanone Kaffeesatz;
+        font-size:20px;
+        text-align: justify;
+    
+    
+    }
+    
+    .image-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
+        height: auto;
+        padding: 10vh;
+        padding-top: 20vh;
+        
+    }
+  
+  }

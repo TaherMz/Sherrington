@@ -1,0 +1,41 @@
+.items-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    justify-content: space-between;
+
+
+}
+
+
+
+.items-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px ;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+@media (max-width:500px){
+    .items-list-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 230px;
+    
+    
+    }
+    
+
+
+}
+

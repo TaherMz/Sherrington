@@ -1,0 +1,47 @@
+.image-sponsor{
+    
+    padding-top: 110px;
+    padding-bottom: 115px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.normal{
+    display: block;
+}
+.respons{
+    display: none;
+}
+
+
+@media (max-width:500px){
+
+    img{
+        width: 100%;
+    }
+    .image-sponsor{
+        width: 100%;
+        padding-bottom: 116px;
+        padding-top: 200px;
+
+        
+    ;
+
+    }
+
+    .normal{
+        display: none;
+    }
+    .respons{
+        display: block;
+    }
+
+
+
+     
+  
+  }
+
+
+  

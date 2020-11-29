@@ -1,0 +1,177 @@
+.sous-titre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 200px;
+    color: black;
+    padding-left: 20vh;
+    padding-bottom: 50px;
+
+}
+
+.sous-titre1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 100px;
+    color: black;
+    padding-left: 20vh;
+    padding-bottom: 50px;
+
+
+}
+
+
+
+.form-container{
+    display: flex;
+    color: black;
+    justify-content: center;
+
+    padding-left: 25vh;
+
+}
+
+
+
+.form-message{
+    display: flex;
+    flex-direction: column;
+   padding-left: 50px;
+    flex: 2;
+    margin-right: 35vh;
+    font-family: Teko;
+    /* border:1px solid red; */
+}
+
+.form-bouton{
+    width: 97vh;
+    height: 5vh;
+    font-weight: bold;
+    color:white;
+    padding-top: 2vh;
+    
+}
+
+p{
+    font-family: "Times New Roman";
+}
+
+.map{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 180px;
+
+    
+}
+.cordonnees{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(77, 77, 77);
+    padding-left: 25vh;
+    padding-right: 100vh;
+    font-family: Teko;
+    font-size: 2.5vh;
+}
+.noms{
+    display: flex;
+    flex-direction: column;
+    font-family: Teko;
+    font-size: 2.6vh;
+    padding-left: 3vh;
+    border-left: 3px solid #3f51b5;
+    
+
+}
+
+.nums{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width:500px) {
+
+    .sous-titre{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 35px;
+        font-weight: lighter;
+        padding-top: 380px;
+        color: black;
+        padding-left: 2vh;
+        
+    
+    }
+
+    .sous-titre1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: lighter;
+        color: black;
+        font-size: 40px;
+        padding-left: 2vh;
+
+
+
+    }
+    
+
+    .form-container{
+        display: flex;
+        flex-direction: ROW;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10vh;
+        
+    
+    
+    }
+
+
+
+
+    .form-message{
+        padding-left: 5vh;
+        margin-right: 35vh;
+    }
+
+  
+    
+    p{
+        font-family: "Times New Roman";
+    }
+
+    .map{
+        width: 100%;
+        padding: 0 0 180px 0;
+
+    
+        
+    }
+    .cordonnees{
+        display: flex;
+        color: black;
+        width: 100%;   
+        padding: 0 0 0 0;
+        font-size: 35px;
+  
+    }
+    .noms{
+        display: flex;
+     
+        font-size: 30px;
+
+        flex-direction: column;
+        width: 100%;     
+
+    }
+    
+    .nums{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        font-size: 35px;
+    
+
+        
+    }
+}

@@ -1,0 +1,11 @@
+.Video-home{
+    width: 100%;
+}
+
+@media (max-width:500px){
+   
+  .Video-home{
+      padding-top: 45vh;
+      width: 100% ;
+  }
+}
